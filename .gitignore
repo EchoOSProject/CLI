@@ -1,0 +1,10 @@
+# NodeJS & Visual Studio Code
+node_modules/
+.vscode/
+
+# Log Files
+logs/
+*.log
+
+# GitHub
+.git/
