@@ -1,0 +1,42 @@
+{
+  "name": "echoos",
+  "version": "1.0.0",
+  "description": "EchoOS CLI",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EchoOSProject/CLI.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "nodejs",
+    "os",
+    "echo",
+    "system",
+    "manager",
+    "cli"
+  ],
+  "author": "n0ct3ri4",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/EchoOSProject/CLI/issues"
+  },
+  "homepage": "https://github.com/EchoOSProject/CLI#readme",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "colors": "^1.4.0",
+    "electron": "^12.0.5",
+    "fs": "*"
+  },
+  "bin": {
+    "echoos": "./bin/index.js",
+    "echo-os": "./bin/index.js",
+    "eos": "./bin/index.js",
+    "echo-cli": "./bin/index.js",
+    "eos-cli": "./bin/index.js"
+  }
+}
