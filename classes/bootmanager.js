@@ -74,11 +74,7 @@ module.exports = class {
               );
             }
           } else {
-            reject(
-              new Error(
-                "This system configuration doesn't contains the specified boot-identifier."
-              )
-            );
+            return false;
           }
         });
       } else {

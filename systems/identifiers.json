@@ -20,13 +20,13 @@
     "version": "0.0.1",
     "config": {
       "minimum": {
-        "memory": "1G",
-        "disk": "2G",
-        "internet": "3Mbs"
+        "memory": "512M",
+        "disk": "256M",
+        "internet": "1Mbs"
       }
     },
-    "github": "YOUR_GITHUB_HERE",
+    "github": "https://github.com/EchoOSProject/EchoEnvs/blob/systems/0-001",
     "entry": "main.js",
-    "dependencies": ["electron"]
+    "dependencies": ["readline", "http", "https", "fs"]
   }
 ]

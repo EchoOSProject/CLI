@@ -26,7 +26,11 @@ echoos <systemIdentifier>
 
 # Compatibilité avec Electron
 
-Le système que vous voulez utiliser requière la dépendance Electron ? Pas de problèmes! L'application CLI gère automatiquement Electron.
+Le système que vous voulez utiliser requière la dépendance Electron ? Pas de problèmes! Démarrez votre système à partir de cette commande :
+
+```sh
+elecos <systemIdentifier>
+```
 
 ---
 

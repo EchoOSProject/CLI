@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/env electron
 
 const classes = { bm: require("../classes/bootmanager") };
 const bm = new classes.bm();
