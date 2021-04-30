@@ -19,7 +19,7 @@ npm install -g echoos
 Et démarrer un système avec cette commande :
 
 ```sh
-echoos <systemIdentifier>
+echo-os <systemIdentifier>
 ```
 
 ---
@@ -29,7 +29,7 @@ echoos <systemIdentifier>
 Le système que vous voulez utiliser requière la dépendance Electron ? Pas de problèmes! Démarrez votre système à partir de cette commande :
 
 ```sh
-elecos <systemIdentifier>
+elec-os <systemIdentifier>
 ```
 
 ---
